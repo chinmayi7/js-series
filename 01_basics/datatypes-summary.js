@@ -59,11 +59,11 @@ console.log(typeof myFunction);
 // 2 types of memory
 // Stack (Primitive) - variable declared we will get a copy, Heap (Non-Primitive) - refrence, original reference
 
-let myActualName = "tea"
-let anotherName =  myActualName
-anotherName = "chai"
+let myYouTubename = "chai_withYouTube"
+let anotherName =  myYouTubename
+anotherName = "tea_withSugar"
 
-console.log(myActualName);
+console.log(myYouTubename);
 console.log(anotherName);
 
 let userOne = {
