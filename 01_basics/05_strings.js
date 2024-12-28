@@ -43,53 +43,28 @@ console.log(gameName.split('-'));
 /************************************************** String Methods *******************************************************/
 
 const outDoorGame = new String("badminton")
-// Basic Methods:                                
-// 1. charAt()
-// 2. charCodeAt()
-// 3. concat()
-// 4. includes()
-// 5. indexOf()
-// 6. lastIndexOf()
+/** Basic Methods: **/   						/** ES6+ Methods: **/                            
+// 1. charAt()									// 22. startsWith()				
+// 2. charCodeAt()								// 23. endsWith()			
+// 3. concat()									// 24. padStart()
+// 4. includes()								// 25. padEnd()
+// 5. indexOf()									// 26. fromCodePoint()
+// 6. lastIndexOf()								// 27. normalize()
 // 7. localeCompare()
-// 8. match()
-// 9. matchAll()
-// 10. repeat()
-// 11. replace()
+// 8. match()									/** Other Methods: **/
+// 9. matchAll()								// 28. toLocaleLowerCase()
+// 10. repeat()									// 29. toLocaleUpperCase()
+// 11. replace()								// 30. valueOf()
 // 12. replaceAll()
-// 13. search()
-// 14. slice()
-// 15. split()
-// 16. substring()
-// 17. toLowerCase()
-// 18. toUpperCase()
-// 19. trim()
-// 20. trimStart() / trimLeft()
+// 13. search()									/** Deprecated Methods: **/
+// 14. slice()									// 31. fixed()
+// 15. split()									// 32. fontcolor()
+// 16. substring()								// 33. fontsize()
+// 17. toLowerCase()							// 34. italics()
+// 18. toUpperCase()							// 35. strike()
+// 19. trim()									// 36. sub()
+// 20. trimStart() / trimLeft()					// 37. sup()
 // 21. trimEnd() / trimRight()
-
-// ES6+ Methods:
-// 22. startsWith()
-// 23. endsWith()
-// 24. padStart()
-// 25. padEnd()
-// 26. fromCodePoint()
-// 27. normalize()
-
-// Other Methods:
-// 28. toLocaleLowerCase()
-// 29. toLocaleUpperCase()
-// 30. valueOf()
-
-//Deprecated Methods:
-// 31. fixed()
-// 32. fontcolor()
-// 33. fontsize()
-// 34. italics()
-// 35. strike()
-// 36. sub()
-// 37. sup()
-
-
-
 
 console.log(outDoorGame.anchor('bad')); // anchor()
 console.log(outDoorGame.at(2)); // at()
