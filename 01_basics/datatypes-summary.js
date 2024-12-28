@@ -54,3 +54,28 @@ console.log(typeof myFunction);
 
 //Q: javaScript is Dynamically typed language or Statically typed language ? ans: Dynamically typed language ex: const score = 100;
 //Q: TypeScript is Dynamically typed language or Statically typed language ? ans: Statically typed language ex: const score: Number = 100; (type safety)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Memory ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 2 types of memory
+// Stack (Primitive) - variable declared we will get a copy, Heap (Non-Primitive) - refrence, original reference
+
+let myActualName = "tea"
+let anotherName =  myActualName
+anotherName = "chai"
+
+console.log(myActualName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dc@gmail.com"
+ 
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
