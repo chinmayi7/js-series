@@ -43,20 +43,20 @@ console.log(gameName.split('-'));
 /************************************************** String Methods *******************************************************/
 
 const outDoorGame = new String("badminton")
-/** Basic Methods: **/   						/** ES6+ Methods: **/                            
-// 1. charAt()									// 22. startsWith()				
-// 2. charCodeAt()								// 23. endsWith()			
-// 3. concat()									// 24. padStart()
-// 4. includes()								// 25. padEnd()
-// 5. indexOf()									// 26. fromCodePoint()
-// 6. lastIndexOf()								// 27. normalize()
-// 7. localeCompare()
-// 8. match()									/** Other Methods: **/
-// 9. matchAll()								// 28. toLocaleLowerCase()
-// 10. repeat()									// 29. toLocaleUpperCase()
-// 11. replace()								// 30. valueOf()
-// 12. replaceAll()
-// 13. search()									/** Deprecated Methods: **/
+/** Basic Methods: **/   						/** ES6+ Methods: **/                       /** miscellaneous methods**/                     
+// 1. charAt()									// 22. startsWith()				            // 38. anchor() 
+// 2. charCodeAt()								// 23. endsWith()		                    // 39. at() 	                    
+// 3. concat()									// 24. padStart()                           // 40. blink()
+// 4. includes()								// 25. padEnd()                             // 41. bold()
+// 5. indexOf()									// 26. fromCodePoint()                      // 42. codePointAt()
+// 6. lastIndexOf()								// 27. normalize()                          // 43. constructor()
+// 7. localeCompare()                                                                       // 44. isWellFormed()
+// 8. match()									/** Other Methods: **/                      // 45. link()
+// 9. matchAll()								// 28. toLocaleLowerCase()                  // 46. toString()
+// 10. repeat()									// 29. toLocaleUpperCase()                  // 47. Symbol(Symbol.iterator)
+// 11. replace()								// 30. valueOf()                            // 48. small()
+// 12. replaceAll()                                                                         // 49. substr()
+// 13. search()									/** Deprecated Methods: **/                 // 50. toWellFormed()
 // 14. slice()									// 31. fixed()
 // 15. split()									// 32. fontcolor()
 // 16. substring()								// 33. fontsize()
@@ -65,6 +65,7 @@ const outDoorGame = new String("badminton")
 // 19. trim()									// 36. sub()
 // 20. trimStart() / trimLeft()					// 37. sup()
 // 21. trimEnd() / trimRight()
+
 
 console.log(outDoorGame.anchor('bad')); // anchor()
 console.log(outDoorGame.at(2)); // at()
