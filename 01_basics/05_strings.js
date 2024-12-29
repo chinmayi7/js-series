@@ -42,7 +42,6 @@ console.log(gameName.split('-'));
 
 /************************************************** String Methods *******************************************************/
 
-const outDoorGame = new String("badminton")
 /** Basic Methods: **/   						                                        
 // 1. charAt()										             
 // 2. charCodeAt()										                     	                    
@@ -103,11 +102,14 @@ const outDoorGame = new String("badminton")
 // 49. substr()
 // 50. toWellFormed()
 
-console.log(outDoorGame.anchor('bad')); // anchor()
-console.log(outDoorGame.at(2)); // at()
-console.log(outDoorGame);
+let text = "HEllo world"
 
-console.log('protoType', outDoorGame.__proto__);
+console.log("1.charAt() ", text.charAt(0)); // H
+console.log("2.charCodeAt() ", text.charCodeAt(1)); // 69, Decimal number for E -> 69
+console.log("3.concat() ", text.concat(', welcome to coding')); // Hello world, welcome to coding
+console.log("4.includes()", text.includes('world')) // true
+console.log("5.indexOf()", text.indexOf('E')); // 1
+
 
 
 
