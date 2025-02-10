@@ -60,6 +60,7 @@ console.log(gameName.split('-'));
 // 15. split()									
 // 16. substring()								
 // 17. toLowerCase()							
+
 // 18. toUpperCase()							
 // 19. trim()									
 // 20. trimStart() / trimLeft()					
@@ -103,12 +104,16 @@ console.log(gameName.split('-'));
 // 50. toWellFormed()
 
 let text = "HEllo world"
-
+let myStr = "Hello planet earth, you are a great planet.";
+/** Basic Methods: **/
 console.log("1.charAt() ", text.charAt(0)); // H
 console.log("2.charCodeAt() ", text.charCodeAt(1)); // 69, Decimal number for E -> 69
 console.log("3.concat() ", text.concat(', welcome to coding')); // Hello world, welcome to coding
 console.log("4.includes()", text.includes('world')) // true
-console.log("5.indexOf()", text.indexOf('E')); // 1
+console.log("5.indexOf()", text.indexOf('E')); // 1 (**helps locate a substring within a string and returns its position. indexOf method to return the position of the first occurrence of specified character(s) in a string. **)
+console.log("6.lastIndexOf()", myStr.lastIndexOf('planet')); // 36  (**returns the position of the last occurrence of specified character(s) in a string**)
+console.log("7.localeCompare()", myStr.localeCompare(text));
+
 
 
 
